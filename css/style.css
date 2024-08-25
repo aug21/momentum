@@ -5,7 +5,10 @@ html { height:100% }
 body { display:flex; flex-direction:column; justify-content:center; align-items:center; height:100%; margin:0; color:rgb(255 255 255 / 90%) }
 
 #bg-img {z-index:-1;position:fixed;top:0;left:0;bottom:0;right:0}
+
+#login-form input,
 #todo-form input {background:transparent;border:none;border-bottom:1px solid rgb(255 255 255 / 50%);outline:none;padding-bottom:0.5em}
+#login-form input::placeholder,
 #todo-form input::placeholder {color:rgb(255 255 255 / 80%)}
 #todo-form input:focus {border-bottom:1px solid rgb(255 255 255 / 80%)}
 
